@@ -9,7 +9,8 @@ function sidebar() {
   return (
     <>
         <div className="w-80">
-            <div className="relative w-full h-1/3 p-8 bg-[#3D5654]">
+            <div className="relative w-full p-8 bg-[#3D5654]">
+                <div className='flex items-center justify-center'>
                 <div className="flex justify-center items-center">
                     <ProfileComponent
                         // Pass the imported image as a prop
@@ -18,8 +19,9 @@ function sidebar() {
                         email="john.doe@example.com"
                     />
                 </div>
+                </div>
             </div>
-            <div className="bg-[#425C5A] h-2/3 text-white p-8 space-y-6">
+            <div className="bg-[#425C5A] h-3/4 text-white p-8 space-y-6">
                 {/* Sidebar content */}
                 <Navigation />
                 <div className='p-0'>

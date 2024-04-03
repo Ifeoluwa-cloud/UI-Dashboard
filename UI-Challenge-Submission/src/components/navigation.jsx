@@ -9,13 +9,12 @@ import icon6 from '../assets/icon6.svg';
 const navigation = () => {
       // Array of navigation items
   const navigationItems = [
-    { icon: icon1, title: "Brand Name 1", href: "#" },
-    { icon: icon2, title: "Brand Name 2", href: "#" },
-    { icon: icon3, title: "Brand Name 3", href: "#" },
-    { icon: icon4, title: "Brand Name 4", href: "#" },
-    { icon: icon5, title: "Brand Name 5", href: "#" },
-    { icon: icon6, title: "Brand Name 6", href: "#" },
-    // Add more items as needed
+    { icon: icon1, title: "DASHBOARD", href: "#" },
+    { icon: icon2, title: "FLIGHTS", href: "#" },
+    { icon: icon3, title: "WALLET", href: "#" },
+    { icon: icon4, title: "REPORTS", href: "#" },
+    { icon: icon5, title: "STATISTICS", href: "#" },
+    { icon: icon6, title: "SETTINGS", href: "#" }
   ];
 
   return (

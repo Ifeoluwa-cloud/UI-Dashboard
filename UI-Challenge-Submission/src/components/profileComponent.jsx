@@ -2,7 +2,7 @@
 function ProfileComponent ({ imageUrl, fullName, email }) {
   return (
     <>
-        <div className="flex flex-col text-white items-center">
+        <div className="flex flex-col text-white items-center p-0">
             {/* Image */}
             
             <div className="relative rounded-full overflow-hidden w-32 h-32">
